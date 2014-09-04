@@ -37,6 +37,9 @@ $result = mysqli_query($con, $sql);
 	{
 	padding: 20px 30px 20px 30px;
 	padding-left:25%;
+	background-image: url('/assessment/imgs/tcbackground.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	}
 	</style>
     </head>
@@ -50,6 +53,7 @@ $result = mysqli_query($con, $sql);
        
       </div>
       <h1><small>This is the TC News database.</small></h1>
+	  <a href="/assessment/results.php"><h3><small>Teacher Details</h3></small></a>
       
     </div>
   </div>
