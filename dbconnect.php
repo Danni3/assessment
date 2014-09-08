@@ -23,7 +23,7 @@ if (!mysqli_query($con,$sql))
  }
 header("Location: newspage.php");
 
-//redirect
+//redirect back to homepage on successful submit
 				
  
 mysqli_close($con);
